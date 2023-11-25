@@ -1,0 +1,35 @@
+.departmenttext{
+    text-align: center;
+    color: blue;
+}
+.listofdept{
+    margin:50px 50px 50px 50px;
+    background-color: #ff6f00;
+}
+.deptlist{
+    /* margin:10px 200px 0px 200px; */
+    padding: 10px;
+    border: 10px;
+    border-color: rgb(191, 12, 12);
+    /* background-color: aqua; */
+}
+
+
+.heading{
+    width:83vw;
+    margin-left:291px;
+    height: 100vh;
+        /* Adjust the height according to your needs */
+        overflow: auto;
+
+}
+
+.your-table-class {
+    table-layout: fixed;
+}
+
+.home{
+    background: url('../components/assets/motive.jpg') center/cover no-repeat fixed;
+    width:100vw;
+    height:100vh;
+}

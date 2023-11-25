@@ -1,0 +1,54 @@
+/* Add a background image to the container */
+.deletecontainer {
+    background: url('../components/assets/changepass.jpg') center/cover no-repeat fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    width: 5000px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the content within the container */
+.deletecontent {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin:0px 0px 100px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 24px;
+    color:black;
+    margin-bottom: 20px;
+}
+
+/* Style the input field */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 40px 20px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the delete button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #0056b3;
+}
